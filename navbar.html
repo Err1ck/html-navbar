@@ -1,0 +1,42 @@
+<!-- 
+Try to replicate the navbar html structure in the png file, without using CSS properties.
+**Suggestion**
+In order to replicate the navbar html structure, try to use the semantic tag `<nav>`. 
+For the links try to use a not ordered list.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navbar</title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li>
+        <a name="navbar-nav" href="/NavBar/"><b>Navbar</b></a>
+      </li>
+      <li>
+        <a name="home-nav" href="/Home"><b>Home</b></a>
+      </li>
+      <li>
+        <a name="link-nav" href="/Link">Link</a>
+      </li>
+      <li>
+        <select name="dropdown-nav">
+          <option><a href="/Dropdown">Dropdown</a></option>
+        </select>
+      </li>
+      <li><a name="disabled-nav"> Disabled </a></li>
+      <li>
+        <form class="search-bar">
+          <input name="search" type="search" placeholder="Search"/>
+          <button type="submit">Search</button>
+        </form>
+      </li>
+    </ul>
+  </nav>
+</body>
+</html>
